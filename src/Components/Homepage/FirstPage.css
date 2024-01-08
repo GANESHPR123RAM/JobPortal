@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+.FirstPageBox {
+    width: 99vw;
+    height: 100vh;
+}
+
+.HomePage1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.TypeOfJop {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.Type1 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(17, 17, 17, 0.30);
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    /* 43.2px */
+    color: linear-gradient(92deg, #009 12.47%, #004EA8 91.79%);
+    /* background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.Type2 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: linear-gradient(91deg, #009 0%, #004EA8 95.31%);
+    color: #F9F9F9;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    /* 43.2px */
+}
+
+.HomePageBg {
+    width: 100%;
+    height: 92vh;
+}
+
+.HomepageBg1Img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.HomePageContent1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.sloganContent {
+    width: 60%;
+    height: 40%;
+    padding: 3% 3% 0% 6%;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    /* 54px */
+    background: linear-gradient(270deg, #009 0.58%, #004EA8 99.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.HomePageSearch {
+    width: 60%;
+    height: 10%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--5, 40px);
+    background: #FFF;
+}
+
+.HomePageSearchIcon {
+    width: 45%;
+    height: 100%;
+    border: 0 transparent;
+    border-radius: var(--5, 40px);
+    background: #FFF;
+    text-align: justify;
+    padding-left: 10%;
+
+}
+
+.SearchIconBox {
+    width: 6%;
+    height: 80%;
+    border-radius: 50%;
+    background: linear-gradient(126deg, #009 14.79%, #004EA8 93.8%);
+}
+
+.SearchIcon {
+    color: black;
+}
+
+.Apply {
+    width: 60%;
+    height: 10%;
+    margin: 10% 0 0 10%;
+    color: #FFF;
+    text-align: justify;
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+    /* 27px */
+}
+
+@media (max-width:1024px) {
+    .FirstPageBox {
+        width: 100vw;
+    }
+
+    .sloganContent {
+        font-size: 30px;
+    }
+}
+@media (max-width:1280px) {
+    .FirstPageBox {
+        width: 100vw;
+    }
+
+    .sloganContent {
+        font-size: 36px;
+    }
+}

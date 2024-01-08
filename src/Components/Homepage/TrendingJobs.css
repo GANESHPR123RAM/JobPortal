@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+.TrendingJobs {
+    width: 99vw;
+    height: 80vh;
+}
+
+.TrendingJobsBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.TrendingJobsplate {
+    width: 100%;
+    height: 10%;
+}
+
+.TrendingJobsHeading {
+    background: linear-gradient(270deg, #009 0.58%, #004EA8 99.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 54px */
+}
+
+.TrendingJobsCardBox {
+    width: 100%;
+    height: 80%;
+
+}
+
+.TrendingJobsCard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* padding: 0 8% 0 8%; */
+}
+
+.JobsCard {
+    width: 20%;
+    height: 70%;
+    border-radius: 20px;
+    border: 1px solid #E7E7E7;
+    background: #FFF;
+    padding: 2% 0 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.Trending {
+    color: var(--black-50, #888);
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    width: 100%;
+    height: 10%;
+    display: inline;
+    align-items: center;
+    /* 24px */
+}
+
+.fild {
+    color: var(--components-chip-defaultCloseFill, #000);
+    /* text-align: center; */
+    font-family: Red Hat Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* 32.4px */
+}
+
+.TrendingJobsBtn {
+    font-family: Red Hat Display;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(92deg, #009 -6.1%, #004EA8 104.26%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 15%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #E7E7E7 1px solid;
+    border-radius: 25px;
+}
+
+.jobcardimgbtn {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.jobcardimg {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.TrendingJobsviewMore {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trendingSeeAllBtn {
+    border-radius: var(--borderRadius, 4px);
+    background: linear-gradient(97deg, #009 -19.14%, #004EA8 107.82%);
+    color: var(--white, #FCFCFC);
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 8%;
+    height: 80%;
+    border: 0 transparent solid;
+}
+
+@media (max-width:1024px) {
+    .fild {
+        font-size: 20px;
+    }
+
+    .TrendingJobs {
+        width: 100vw;
+    }
+
+    .TrendingJobsBtn {
+        font-size: 8px;
+    }
+}
+@media (max-width:1280px) {
+    .fild {
+        font-size: 22px;
+    }
+
+    .TrendingJobs {
+        width: 100vw;
+    }
+
+    .TrendingJobsBtn {
+        font-size: 10px;
+    }
+}

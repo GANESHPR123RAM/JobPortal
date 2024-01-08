@@ -1,0 +1,5 @@
+.HomeBox{
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+}

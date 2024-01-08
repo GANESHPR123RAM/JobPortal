@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+.Jobspecialty {
+    width: 99vw;
+    height: 70vh;
+    padding: 3% 3% 0 3%;
+}
+
+.JobspecialtyBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.JobspecialtyCol1 {
+    width: 38vw;
+    height: 92%;
+    padding: 4% 0 0 4%;
+}
+
+.JobspecialtyCol2 {
+    width: 30vw;
+    height: 94%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 4%;
+    padding: 4% 0 0 4%;
+}
+
+.Col1Content1 {
+    font-family: Red Hat Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    /* 54px */
+    width: 60%;
+    height: 30%;
+    background: linear-gradient(270deg, #009 0.58%, #004EA8 99.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Col1Content2 {
+    color: var(--black-50, #888);
+    font-family: Red Hat Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128%;
+    /* 30.72px */
+    width: 60%;
+    height: 20%;
+}
+
+.Col1Content3 a {
+    background: linear-gradient(90deg, #009 0.15%, #004EA8 99.91%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+    width: 60%;
+    height: 10%;
+    /* 32.4px */
+}
+
+.JobspecialtyBox1 {
+    width: 100%;
+    height: 20%;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+    color: rgb(8, 6, 6);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2%;
+
+}
+
+@media (max-width:1024px) {
+    .Jobspecialty {
+        width: 100vw;
+    }
+
+    .Col1Content1 {
+        font-size: 27px;
+    }
+
+    .Col1Content2 {
+        font-size: 18px;
+    }
+
+    .Col1Content3 a {
+        font-size: 20px;
+    }
+
+    .JobspecialtyBox1 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1280px) {
+    .Jobspecialty {
+        width: 100vw;
+    }
+
+    .Col1Content1 {
+        font-size: 37px;
+    }
+
+    .Col1Content2 {
+        font-size: 20px;
+    }
+
+    .Col1Content3 a {
+        font-size: 22px;
+    }
+
+    .JobspecialtyBox1 {
+        font-size: 24px;
+        padding-left: 5%;
+    }
+}
